@@ -128,19 +128,17 @@ If you use this tag, the instances will be created as: `app`, `web`, and `db`.
 ```
 If you use this tag, the instances will be created as: `appserver`, `webserver`, and `dbserver`.
 
-   | **mapping in the main.tf (hard-coding)**          |
-|--------------------------------|------------------------------------|
-| ![VS]() | ![AWS](https://github.com/nikiimisal/Variable--Dynamic-assigment--Terraform/blob/main/img/Screenshot_20251122-154424.png?raw=true) |
 
-  | **mapping in the main.tf (hard-coding)**          |
-     |------------------------------------|
-| ![VS](  <p align="center">
-  <img src="https://github.com/nikiimisal/Basic-Terraform-setup-using-window-Launching-server-/blob/main/img/terra-window-ec2.png?raw=true" alt="Initialize Repository Screenshot">
-</p>
-) |
-
+**mapping in the main.tf (hard-coding)** 
  <p align="center">
-  <img src="https://github.com/nikiimisal/Basic-Terraform-setup-using-window-Launching-server-/blob/main/img/terra-window-ec2.png?raw=true" width="500" alt="Initialize Repository Screenshot">
+  <img src="https://github.com/nikiimisal/Variable--Dynamic-assigment--Terraform/blob/main/img/Screenshot_20251122-154424.png?raw=true" width="500" alt="Initialize Repository Screenshot">
 </p>
 
+**mapping in the variable.tf (dynamic assignment)**(you can also define through hard-coding)
 
+
+| **varible.tf**    | **main.tf**          |
+|--------------------------------|------------------------------------|
+| ![VS](https://github.com/nikiimisal/Variable--Dynamic-assigment--Terraform/blob/main/img/Screenshot_20251122-154659.png?raw=true) | ![AWS](https://github.com/nikiimisal/Variable--Dynamic-assigment--Terraform/blob/main/img/Screenshot_20251122-154828.png?raw=true) |
+
+_ _ _
