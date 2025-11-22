@@ -1,0 +1,1 @@
+# Variable--Dynamic-assigment--Terraform
